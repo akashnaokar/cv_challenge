@@ -1,5 +1,5 @@
 # Whats about?
-The challenge aims to get you close to a interesting cv task: Object detection and classification.
+The challenge aims to get you close to an interesting cv task: Object detection and classification.
 <h3>Note: All code is to be implemented in jupyter notebook file(s) and should contain comments and print-outs to ensure a reviewer is able to understand what you did and why.</h3>
 
 ## Dataset
@@ -34,6 +34,9 @@ Where the field `image/encodedrawdata` contains the converted np.ndarray image r
 
 The result should be two folders: `train` and `test` holding n-tfrecord files, one for each sample.
 
+# Tasks
+You have to fullfill only one of the two tasks below - but of course you can work on both :-)
+
 ## Task 2 - Classification
 Using `tensorflow (Version: 2.15) with highlevel api Keras` you create a model to perform a image classification (ignoring bboxes for now, just classify the target label to the hole image).
 For the classification you will use a `Xception` `DNN` pretrained on the `imagenet` dataset and change the head to be fine-tuned on the data.
@@ -67,4 +70,4 @@ For this task, you are completely free which model architecture you choose - but
 <strong>Again: It does not matter how "good" your model tackles the task - but your validation accuracy should be >60% to ensure that the pipeline runs as expected.</strong>
 
 # Submission
-You submit your challenge result by sending us a link to a github repo, containing all your code (as the requested jupyter notebook files!). Send the link to your HR contact person. Note: To verify that section 1 was done as expected, please include only ONE dataset sample/files in the repo but not the whole dataset.
+You submit your challenge result by sending us a link to a github repo, containing all your code (as the requested jupyter notebook files!). Send the link to your HR contact person. Note: To verify that section 1 was done as expected, please include only ONE dataset sample/files in the repo but not the whole dataset. Ensure that your code is well commented and formatted. 
