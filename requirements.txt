@@ -17,3 +17,4 @@ seaborn
 opencv-python
 # required for PIL -- image manipulation
 pillow
+ipython
