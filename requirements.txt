@@ -1,0 +1,18 @@
+keras
+tensorflow == 2.15.0
+
+# newer version of numpy works but leaves an annoying error message at runtime
+numpy
+pandas
+scikit-learn
+
+
+# tools
+matplotlib
+seaborn
+
+# Image libraries
+opencv-python
+# required for PIL -- image manipulation
+pillow
+ipython
