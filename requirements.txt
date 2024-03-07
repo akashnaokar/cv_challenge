@@ -1,7 +1,5 @@
 keras
 tensorflow == 2.15.0
-# tensorflow[and-cuda]
-tensorflow_hub
 
 # newer version of numpy works but leaves an annoying error message at runtime
 numpy
